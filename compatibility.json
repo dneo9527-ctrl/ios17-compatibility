@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "target": "iPhone 15 Pro / iOS 17.0 / TrollStore",
+  "status": "documentation_catalog_only_no_IPA_distribution",
+  "items": [
+    {
+      "app": "Muse",
+      "app_version": "14.4.0",
+      "compatibility_patch": "4.3",
+      "file": "Muse-14.4.0-iOS17-Candidate4.3.ipa",
+      "bytes": 62632519,
+      "sha256": "757576ab3ce8097d39b90b42406acc183deaeaf68fbef2fa73a02d97309cc015",
+      "known_status": [
+        "4.2旁聊路径曾获成功反馈；4.3的Review修复尚缺真机成功确认。"
+      ]
+    },
+    {
+      "app": "ChatGPT",
+      "app_version": "1.2026.300",
+      "compatibility_patch": "10",
+      "file": "ChatGPT-1.2026.300-iOS17-完整候选10-键盘光标设置修复.ipa",
+      "bytes": 152265269,
+      "sha256": "58a1adfa4607b5e773163915dd2afb60eb9eadfbc9f8bfe173603a2ddbdb8428",
+      "known_status": [
+        "用户确认输入、聊天正常，设置空白行已消失。",
+        "Codex → Settings → Profile卡死及App内Logo动画缺失仍未解决。"
+      ]
+    },
+    {
+      "app": "3X Client",
+      "app_version": "1.2",
+      "compatibility_patch": "2",
+      "file": "3X-Client-1.2-iOS17-兼容测试版2.ipa",
+      "bytes": 3730449,
+      "sha256": "a927af3ba381d46dc466a43f99c2b7be5b68f1cbcc2c48e5813375ff3ed2874f",
+      "known_status": [
+        "用户确认VPS → Xray Config能打开并正常复制；未完成全页面及长期稳定性回归。"
+      ]
+    }
+  ],
+  "new_device_or_signature_test": false,
+  "license": "No third-party app license is granted or changed by this catalog",
+  "updated_on": "2026-11-19",
+  "repository": "dneo9527-ctrl/ios17-compatibility",
+  "distribution": "compatibility notes and observed file checksums only; no IPA download"
+}
